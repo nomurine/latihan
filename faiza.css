@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ADB9E3;
+    font-family: 'futura', futura-bold;
+    font-size: larger;
+}
+.header{
+    display: flex;
+    width: 100%;
+    padding: 0 0px 0 0px ;
+    background-color:  #444B4D;
+    height: 60px;
+    align-items: center;
+    float: right;
+}
+.header li{
+    float: right;
+    padding: 10px;
+    list-style-type: none;  
+}
+.menu{
+   padding-left: 830px;
+}
+.body{
+    width: 100%;
+    padding-bottom: 422px;
+}
+.footer{
+    background-color:  #444B4D;
+    padding: 10px 5px 10px 0;
+    justify-content: space-between;
+    font-size: larger;
+    align-items: center;
+}
