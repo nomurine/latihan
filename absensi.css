@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* 213502 */
+.menu li {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    float: right;
+    display: flex;
+    margin: 15px;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+.Pandawa {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 20px;
+    float: left;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.header {
+    background-color: #444B4D;
+    height:90px;
+    margin-top: 0px;
+    /* display: flex; */
+    
+}
+
+.menu{
+    float: right;
+    color: black;
+    text-decoration:double;
+}
+
+a {
+    text-decoration:double;
+}
+
+.menu a{
+    color: black;
+}
+
+.menu a:hover {
+    color: aquamarine;
+    transition: ease-in-out 0.3s;
+}
+
+
+.Logo{
+    width: auto;
+    height: 60px;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 10px;
+    float: left;
+}
+
+.title {
+    background-color: #90A955
+}
+
+.topwrapper{
+    background-color: #90A955;
+    width: auto;  
+    background-size: cover;
+    color: white;
+    text-align: top;
+    overflow: hidden;
+    height: 507px;
+    text-align: center;
+}
+
+.form{
+    border-style: solid;
+    border-width: 15px;
+    border-radius: 30px;
+    border-color: black;
+    margin-top: 80px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+}
+
+.section-title{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    padding: 0px 20px;
+    color: black;
+    border-color: black;
+    margin: 40px auto;
+}
+
+select{
+    margin-bottom: 40px;
+}
+
+p{
+    font-family:'Times New Roman', Times, serif;
+    color:darkslategrey;
+    font-size: 20px;
+}
+
+.footer{
+    width: 100%;
+    background-color:  #444B4D;
+    height: 60px;
+    align-items: flex-end;
+    float: left;
+}
+
+.contact li{
+    list-style-type: none;
+    font-size:large;
+    padding: 5px 15px 5px 5px;
+    margin-top: 5px;
+    float: right;
+}
